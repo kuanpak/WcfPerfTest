@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiCore", "WebApiCore\WebApiCore.csproj", "{32C41B66-4A1A-44E7-A354-F2D87CA86F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSvc", "WebSvc\WebSvc.csproj", "{36E823BE-DD3A-4932-A416-2B1861696AE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7207867B-933B-450C-B78A-D6A9F6D02944}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SoapUI", "SoapUI", "{CCC13EDF-1CFE-428A-8038-8EB90DDCF4F3}"
+	ProjectSection(SolutionItems) = preProject
+		tests\SoapUI\WCF-Perf-Test-API-soapui-project.xml = tests\SoapUI\WCF-Perf-Test-API-soapui-project.xml
+		tests\SoapUI\WebService1-soapui-project.xml = tests\SoapUI\WebService1-soapui-project.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32C41B66-4A1A-44E7-A354-F2D87CA86F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C41B66-4A1A-44E7-A354-F2D87CA86F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C41B66-4A1A-44E7-A354-F2D87CA86F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C41B66-4A1A-44E7-A354-F2D87CA86F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E823BE-DD3A-4932-A416-2B1861696AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E823BE-DD3A-4932-A416-2B1861696AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E823BE-DD3A-4932-A416-2B1861696AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E823BE-DD3A-4932-A416-2B1861696AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCC13EDF-1CFE-428A-8038-8EB90DDCF4F3} = {7207867B-933B-450C-B78A-D6A9F6D02944}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AB6AA30-F65D-4774-AA5D-9A99A9333941}
+	EndGlobalSection
+EndGlobal
